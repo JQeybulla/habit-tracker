@@ -1,0 +1,61 @@
+#home {
+  //background-color: red;
+  overflow: hidden;
+
+  .button {
+    margin-top: 100px;
+    padding-left: 7%;
+    .goToHabits {
+      width: 30%;
+      border: 2px solid #ffffff;
+      .habits {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 100%;
+      }
+    }
+  }
+
+  .timeAndPhrase {
+    position: absolute;
+    bottom: 9rem;
+    display: flex;
+    width: 100%;
+
+    .time {
+      color: #fff;
+      font-size: 4rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 15%;
+
+      p {
+        padding: 0;
+        display: flex;
+        align-items: flex-start;
+        font-weight: 700;
+      }
+    }
+
+    .phrase {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 70%;
+      font-weight: bold;
+
+      p {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .author {
+        font-style: italic;
+      }
+    }
+  }
+}

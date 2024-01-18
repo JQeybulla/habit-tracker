@@ -1,0 +1,26 @@
+@import "../../assests/fonts/fonts";
+
+#navbar {
+  background: transparent;
+  //border: 3px solid gray;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+
+  .navbarLeft {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .navbarRight {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+}
