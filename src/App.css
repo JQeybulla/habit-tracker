@@ -1,7 +1,4 @@
 .App {
     min-height: 100vh;
-    background: url("./assests/images/background.jpg");
-    background-size: cover;
-    background-position: center;
     overflow: hidden;
 }

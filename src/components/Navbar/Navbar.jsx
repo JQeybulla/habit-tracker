@@ -3,6 +3,7 @@ import './Navbar.scss';
 import {Col, Row} from "react-bootstrap";
 import {Avatar} from "@mui/material";
 import { deepOrange } from '@mui/material/colors';
+import { auth } from "../../config/firebase";
 
 function Navbar(props) {
     return (
@@ -15,6 +16,7 @@ function Navbar(props) {
           </Col>
           <Col>
             <div className="navbarRight">
+              <h6>{ auth?.currentUser?.email }</h6>
               <Avatar sx={{ bgcolor: deepOrange[500] }}>Q</Avatar>
             </div>
           </Col>

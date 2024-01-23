@@ -21,6 +21,12 @@
   .navbarRight {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
     padding-right: 20px;
+
+    h6 {
+      margin: 0;
+    }
   }
 }

@@ -1,6 +1,10 @@
 #home {
   //background-color: red;
+  background: url("../../assests/images/background.jpg");
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
+  min-height: 100vh;
 
   .button {
     margin-top: 100px;

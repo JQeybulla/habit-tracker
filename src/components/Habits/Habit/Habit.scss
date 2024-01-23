@@ -1,0 +1,35 @@
+#habit {
+  height: 150px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: 0.25s ease-in-out;
+
+  .habitHeader {
+    height: 20%;
+    background-color: orange;
+    overflow: hidden;
+  }
+
+  .habitContent {
+    padding-left: 6%;
+  }
+
+  .habitFooter {
+    padding-left: 6%;
+    color: orange;
+    font-weight: bold;
+  }
+}
+
+#habit:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px rgba(128,120,120,1);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(128,120,120,1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(128,120,120,1);
+}

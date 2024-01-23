@@ -43,7 +43,7 @@ function Home(props) {
         <Col>
           <div className="button">
             <Button variant='outlined' className='goToHabits'>
-              <Link className='habits' to='habits'>My habits</Link>
+              <Link className='habits' to='/habits'>My habits</Link>
             </Button>
           </div>
         </Col>
