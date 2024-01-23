@@ -54,6 +54,7 @@ function Habits(props) {
             </button>
           </div>
         </Row>
+
       </Container>
       <Container>
         <AddHabitModal
